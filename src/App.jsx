@@ -6,6 +6,8 @@ import UserLogin from './components/Login/UserLogin.jsx'
 import "@lottiefiles/lottie-player";
 import DoctorLogin from './components/Login/DoctorLogin.jsx'
 import AdminLogin from './components/Login/AdminLogin.jsx'
+import Payment from './components/Login/Payment.jsx'
+import ReviewSuccess from './components/Login/Review.jsx'
 
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
   return (<>
     {/* <UserLogin></UserLogin> */}
     {/* <DoctorLogin></DoctorLogin> */}
-    <AdminLogin></AdminLogin>
+    {/* <AdminLogin></AdminLogin> */}
+    {/* <Payment></Payment> */}
+    <ReviewSuccess></ReviewSuccess>
   </>
   )
 }
