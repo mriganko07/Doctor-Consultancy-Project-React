@@ -5,13 +5,15 @@ import './App.css'
 import UserLogin from './components/Login/UserLogin.jsx'
 import "@lottiefiles/lottie-player";
 import DoctorLogin from './components/Login/DoctorLogin.jsx'
+import AdminLogin from './components/Login/AdminLogin.jsx'
 
 
 function App() {
 
   return (<>
     {/* <UserLogin></UserLogin> */}
-    <DoctorLogin></DoctorLogin>
+    {/* <DoctorLogin></DoctorLogin> */}
+    <AdminLogin></AdminLogin>
   </>
   )
 }
